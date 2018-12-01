@@ -63,7 +63,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.vb" />
+    <Compile Include="CommonBase\AuditBase.vb" />
+    <Compile Include="CommonBase\DTOBase.vb" />
+    <Compile Include="CommonBase\DTOParser.vb" />
+    <Compile Include="CommonBase\DTOParserFactory.vb" />
+    <Compile Include="CommonBase\InitBase.vb" />
+    <Compile Include="Contracts\GroupeContract.vb" />
+    <Compile Include="DTO\Groupe.vb" />
+    <Compile Include="DTO\Parser\DTOParser_Groupe.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,5 +106,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
