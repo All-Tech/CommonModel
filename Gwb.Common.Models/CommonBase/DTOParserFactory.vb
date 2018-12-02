@@ -6,7 +6,7 @@ Public NotInheritable Class DTOParserFactory
 
     End Sub
 
-    Friend Shared Function GetParser(ByVal DTOType As System.Type) As DTOParser
+    Public Shared Function GetParser(ByVal DTOType As System.Type) As DTOParser
         Select Case DTOType.Name
             Case "Groupe"
                 Return New DTO.DTOParser_Groupe()
