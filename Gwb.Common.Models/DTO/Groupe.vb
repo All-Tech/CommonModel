@@ -6,6 +6,7 @@ Namespace DTO
         Public Property GroupeID As Integer
         Public Property Code As String
         Public Property Libelle As String
+        Public Property Adresse As String
         Public Property Ville As String
     End Class
 End Namespace
