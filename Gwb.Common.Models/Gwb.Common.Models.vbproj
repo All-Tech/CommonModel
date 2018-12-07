@@ -10,7 +10,8 @@
     <AssemblyName>Gwb.Common.Models</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -71,6 +72,14 @@
     <Compile Include="Contracts\GroupeContract.vb" />
     <Compile Include="DTO\Groupe.vb" />
     <Compile Include="DTO\Parser\DTOParser_Groupe.vb" />
+    <Compile Include="DTO\Parser\DTOParser_Siege.vb" />
+    <Compile Include="DTO\Parser\DTOParser_SiteArrive.vb" />
+    <Compile Include="DTO\Parser\DTOParser_SiteOperation.vb" />
+    <Compile Include="DTO\Parser\DTOParser_Societe.vb" />
+    <Compile Include="DTO\Siege.vb" />
+    <Compile Include="DTO\SiteArrive.vb" />
+    <Compile Include="DTO\SiteOperation.vb" />
+    <Compile Include="DTO\Societe.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
