@@ -31,7 +31,7 @@ Namespace DTO
             If Not reader.IsDBNull(Num_Code) Then siege.Code = reader.GetString(Num_Code)
             If Not reader.IsDBNull(Num_Libelle) Then siege.Libelle = reader.GetString(Num_Libelle)
             If Not reader.IsDBNull(Num_Adresse) Then siege.Adresse = reader.GetString(Num_Adresse)
-            If Not reader.IsDBNull(Num_Pays) Then siege.Adresse = reader.GetString(Num_Pays)
+            If Not reader.IsDBNull(Num_Pays) Then siege.Pays = reader.GetString(Num_Pays)
             If Not reader.IsDBNull(Num_Ville) Then siege.Ville = reader.GetString(Num_Ville)
             Return siege
         End Function
