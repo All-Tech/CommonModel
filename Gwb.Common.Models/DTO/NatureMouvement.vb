@@ -1,14 +1,13 @@
 Imports Gwb.Common.Models.CommonBase
 
-Public Class Groupe
+Public Class NatureMouvement
 	Inherits DTOBase
 
      #Region"Properties"
-      Public Property GroupeID  As Int16
+      Public Property NatureMouvementID  As Integer
+      Public Property SocieteID  As Integer?
       Public Property Code  As String
       Public Property Libelle  As String
-      Public Property Adresse  As String
-      Public Property Ville  As String
      #End Region
 
 
