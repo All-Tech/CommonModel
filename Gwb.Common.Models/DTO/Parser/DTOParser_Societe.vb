@@ -1,8 +1,6 @@
 Imports System.Data.Common
-Imports System.Configuration
-Imports System.Data.SqlClient
-Imports Gwb.Common.Models.CommonBase
 Imports Gwb.Common.Models.DTO
+Imports Gwb.Common.Models.CommonBase
 
 Public Class DTOParser_Societe
     Inherits DTOParser
@@ -24,7 +22,6 @@ Public Class DTOParser_Societe
     Private Num_Logo As Integer
     Private Num_DateCreation As Integer
     Private Num_NumeroCompte As Integer
-
 
     Public Overrides Sub PopulateOrdinals(reader As DbDataReader)
         Num_SocieteID = reader.GetOrdinal("SocieteID")
@@ -67,6 +64,23 @@ Public Class DTOParser_Societe
         If Not reader.IsDBNull("Logo") Then societe.Logo = reader.GetValue(Num_Logo)
         If Not reader.IsDBNull("DateCreation") Then societe.DateCreation = reader.GetValue(Num_DateCreation)
         If Not reader.IsDBNull("NumeroCompte") Then societe.NumeroCompte = reader.GetValue(Num_NumeroCompte)
+        If Not reader.IsDBNull(Num_SocieteID) Then societe.SocieteID = Convert.ToInt32(reader.GetValue(Num_SocieteID))
+        If Not reader.IsDBNull(Num_SiegeID) Then societe.SiegeID = Convert.ToInt32(reader.GetValue(Num_SiegeID))
+        If Not reader.IsDBNull(Num_Code) Then societe.Code = reader.GetString(Num_Code)
+        If Not reader.IsDBNull(Num_Libelle) Then societe.Libelle = reader.GetString(Num_Libelle)
+        If Not reader.IsDBNull(Num_Description) Then societe.Description = reader.GetString(Num_Description)
+        If Not reader.IsDBNull(Num_Adresse) Then societe.Adresse = reader.GetString(Num_Adresse)
+        If Not reader.IsDBNull(Num_Ville) Then societe.Ville = reader.GetString(Num_Ville)
+        If Not reader.IsDBNull(Num_NatureActivite) Then societe.NatureActivite = reader.GetString(Num_NatureActivite)
+        If Not reader.IsDBNull(Num_Regime) Then societe.Regime = reader.GetString(Num_Regime)
+        If Not reader.IsDBNull(Num_Pw) Then societe.Pw = reader.GetString(Num_Pw)
+        If Not reader.IsDBNull(Num_Fsc) Then societe.Fsc = reader.GetString(Num_Fsc)
+        If Not reader.IsDBNull(Num_Tltv) Then societe.Tltv = reader.GetString(Num_Tltv)
+        If Not reader.IsDBNull(Num_NumIdentite) Then societe.NumIdentite = reader.GetString(Num_NumIdentite)
+        If Not reader.IsDBNull(Num_LDevise) Then societe.LDevise = reader.GetString(Num_LDevise)
+        If Not reader.IsDBNull(Num_Logo) Then societe.Logo = System.Text.Encoding.Default.GetBytes(reader.GetString(Num_Logo))
+        If Not reader.IsDBNull(Num_DateCreation) Then societe.DateCreation = reader.GetDateTime(Num_DateCreation)
+        If Not reader.IsDBNull(Num_NumeroCompte) Then societe.NumeroCompte = reader.GetString(Num_NumeroCompte)
         Return societe
     End Function
 End Class
