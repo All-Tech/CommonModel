@@ -11,8 +11,9 @@ Public Class Scies
       Public Property Sigle  As String
       Public Property CodeProduction  As String
       Public Property OrdreOperation  As Int16?
-      Public Property ScieOrg  As String
-      Public Property FamilleProduction  As String
+    Public Property ScieOrg As String
+    Public Property OrdreActivite As Boolean
+    Public Property FamilleProduction  As String
       Public Property ScieProduit  As String
      #End Region
 

@@ -150,8 +150,16 @@
     <Compile Include="DTO\Siege.vb" />
     <Compile Include="DTO\SiteOperation.vb" />
     <Compile Include="DTO\Societe.vb" />
-    <Compile Include="DTO\SocieteMaritime.vb" />
     <Compile Include="DTO\SousFamille.vb" />
+    <Compile Include="DTO\TarifIHC.vb" />
+    <Compile Include="DTO\TrancheHoraire.vb" />
+    <Compile Include="DTO\Transitaire.vb" />
+    <Compile Include="DTO\Transporteur.vb" />
+    <Compile Include="DTO\TypeClient.vb" />
+    <Compile Include="DTO\TypeEquipe.vb" />
+    <Compile Include="DTO\TypeFournisseur.vb" />
+    <Compile Include="DTO\TypeMateriel.vb" />
+    <Compile Include="DTO\TypeOperateur.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

@@ -8,8 +8,8 @@ Public Class  DTOParser_Produit
 Inherits DTOParser
 	Private  Num_ProduitID As Integer
 	Private  Num_SocieteID As Integer
-	Private  Num_Sous¬FamilleID As Integer
-	Private  Num_CodeProduit As Integer
+    Private Num_SousFamilleID As Integer
+    Private  Num_CodeProduit As Integer
 	Private  Num_Libelle As Integer
 	Private  Num_TypeQualite As Integer
 	Private  Num_TypeGroupe As Integer
@@ -24,8 +24,8 @@ Inherits DTOParser
 	Public Overrides Sub PopulateOrdinals(reader As DbDataReader)
 		Num_ProduitID = reader.GetOrdinal("ProduitID")
 		Num_SocieteID = reader.GetOrdinal("SocieteID")
-		Num_Sous¬FamilleID = reader.GetOrdinal("Sous¬FamilleID")
-		Num_CodeProduit = reader.GetOrdinal("CodeProduit")
+        Num_SousFamilleID = reader.GetOrdinal("Sous¬FamilleID")
+        Num_CodeProduit = reader.GetOrdinal("CodeProduit")
 		Num_Libelle = reader.GetOrdinal("Libelle")
 		Num_TypeQualite = reader.GetOrdinal("TypeQualite")
 		Num_TypeGroupe = reader.GetOrdinal("TypeGroupe")
@@ -41,8 +41,8 @@ Public Overrides Function PopulateDTO(reader As DbDataReader) As DTOBase
 		Dim produit As New Produit()
 		 If Not reader.IsDBNull("ProduitID") Then produit.ProduitID=reader.GetValue(Num_ProduitID)
 		 If Not reader.IsDBNull("SocieteID") Then produit.SocieteID=reader.GetValue(Num_SocieteID)
-		 If Not reader.IsDBNull("Sous¬FamilleID") Then produit.Sous¬FamilleID=reader.GetValue(Num_Sous¬FamilleID)
-		 If Not reader.IsDBNull("CodeProduit") Then produit.CodeProduit=reader.GetValue(Num_CodeProduit)
+        If Not reader.IsDBNull("Sous¬FamilleID") Then produit.SousFamilleID = reader.GetValue(Num_SousFamilleID)
+        If Not reader.IsDBNull("CodeProduit") Then produit.CodeProduit=reader.GetValue(Num_CodeProduit)
 		 If Not reader.IsDBNull("Libelle") Then produit.Libelle=reader.GetValue(Num_Libelle)
 		 If Not reader.IsDBNull("TypeQualite") Then produit.TypeQualite=reader.GetValue(Num_TypeQualite)
 		 If Not reader.IsDBNull("TypeGroupe") Then produit.TypeGroupe=reader.GetValue(Num_TypeGroupe)

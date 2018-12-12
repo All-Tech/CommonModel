@@ -14,9 +14,10 @@ Public Class Essence
       Public Property DiamExpeditionOfficielle  As Int16?
       Public Property MesurageAubier  As String
       Public Property NomSnt  As String
-      Public Property CodeCubagePlein  As String
-      Public Property CodeCubageCom  As String
-      Public Property CodeStat  As String
+    Public Property CodeCubagePlein As String
+    Public Property CodeActif As Boolean
+    Public Property CodeCubageCom As String
+    Public Property CodeStat  As String
       Public Property CodeCde  As String
       Public Property CodeIhc  As String
       Public Property Aupdate  As String

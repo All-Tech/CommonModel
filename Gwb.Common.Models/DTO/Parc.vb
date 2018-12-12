@@ -8,8 +8,9 @@ Public Class Parc
       Public Property SiteOperattionID  As Integer?
       Public Property NatureParcID  As Integer?
       Public Property CodeParc  As String
-      Public Property Libelle  As String
-      Public Property CodeArbre  As String
+    Public Property Libelle As String
+    Public Property CodeVolume As Boolean
+    Public Property CodeArbre  As String
       Public Property CodeStockSechoir  As String
      #End Region
 

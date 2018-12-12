@@ -6,8 +6,8 @@ Public Class Produit
      #Region"Properties"
       Public Property ProduitID  As Integer
       Public Property SocieteID  As Integer?
-      Public Property Sous¬FamilleID  As Integer?
-      Public Property CodeProduit  As String
+    Public Property SousFamilleID As Integer?
+    Public Property CodeProduit  As String
       Public Property Libelle  As String
       Public Property TypeQualite  As String
       Public Property TypeGroupe  As String

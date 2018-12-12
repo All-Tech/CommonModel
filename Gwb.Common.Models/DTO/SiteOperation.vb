@@ -7,6 +7,7 @@ Public Class SiteOperation
     Public Property NatureSiteID As Integer
     Public Property PaysID As Integer
     Public Property AcconierID As Integer
+    Public Property ComptabiliteId As Integer
     Public Property Code As String
     Public Property Libelle As String
     Public Property Adresse As String
