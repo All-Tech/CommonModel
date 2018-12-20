@@ -10,17 +10,11 @@ Public NotInheritable Class DTOParserFactory
         Select Case DTOType.Name
             Case "Groupe"
                 Return New DTOParser_Groupe()
-            Case "PostDTO"
-               'Return New DTOParser_Post()
             Case "SiteProfileDTO"
                 'Return New DTOParser_SiteProfile()
-            Case "Siege"
-<<<<<<< HEAD
-                Return New DTOParser_Siege()
             Case "CategorieEssence"
                 Return New DTOParser_CategorieEssence()
-            Case "SiteOperation"
-                Return New DTOParser_SiteOperation()
+
             Case "ClasseEssence"
                 Return New DTOParser_ClasseEssence()
             Case "Comptabilite"
@@ -85,8 +79,7 @@ Public NotInheritable Class DTOParserFactory
                 Return New DTOParser_Sechoir()
             Case "Siege"
                 Return New DTOParser_Siege()
-            Case "SiteOperation"
-                Return New DTOParser_SiteOperation()
+
             Case "Societe"
                 Return New DTOParser_Societe()
             Case "TarifIHC"
@@ -95,8 +88,7 @@ Public NotInheritable Class DTOParserFactory
                 Return New DTOParser_SousFamille()
             Case "SiteOperation"
                 Return New DTOParser_SiteOperation()
-            Case "SousFamille"
-                Return New DTOParser_SousFamille()
+
             Case "TrancheHoraire"
                 Return New DTOParser_TrancheHoraire()
             Case "Transitaire"
@@ -113,15 +105,11 @@ Public NotInheritable Class DTOParserFactory
                 Return New DTOParser_TypeMateriel()
             Case "TypeOperateur"
                 Return New DTOParser_TypeOperateur()
-=======
-                Return New DTO.DTOParser_Siege()
             Case "SiteArrive"
                 Return New DTOParser_SiteArrive()
-            Case "SiteOperation"
-                Return New DTOParser_SiteOperation()
->>>>>>> f58ea71d3efafed6d8090d4d4c3ce604cf9c73ea
+
         End Select
-        ' Si nous arrivons ici alors c'est que nous n'avons pas réussi à trouver le type correspondant. Nous levons donc Throw New Exception("Unknown Type")
+
         Throw New Exception("Unknown Type")
     End Function
 End Class

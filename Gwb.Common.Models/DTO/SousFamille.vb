@@ -1,5 +1,4 @@
 ﻿Imports Gwb.Common.Models.CommonBase
-
 Namespace DTO
     Public Class SousFamille
         Inherits DTOBase
@@ -9,4 +8,3 @@ Namespace DTO
         Public Property Libelle As String
     End Class
 End Namespace
-

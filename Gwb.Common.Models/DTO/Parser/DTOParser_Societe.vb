@@ -1,7 +1,6 @@
-Imports System.Data.Common
+﻿Imports System.Data.Common
 Imports Gwb.Common.Models.DTO
 Imports Gwb.Common.Models.CommonBase
-
 Public Class DTOParser_Societe
     Inherits DTOParser
     Private Num_SocieteID As Integer

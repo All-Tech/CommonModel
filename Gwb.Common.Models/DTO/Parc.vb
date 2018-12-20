@@ -1,5 +1,7 @@
 Imports Gwb.Common.Models.CommonBase
+Namespace DTO
 
+End Namespace
 Public Class Parc
 	Inherits DTOBase
 

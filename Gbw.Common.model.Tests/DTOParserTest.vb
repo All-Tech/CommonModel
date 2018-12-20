@@ -16,17 +16,17 @@ Imports Moq
     End Sub
     <TestMethod()>
     Public Sub TestMethodDTOGroupe()
-        Dim moq = New Mock(Of IDataReader)()
-        moq.Setup(Function(x) x.Read()).Returns(True)
-        moq.Setup(Function(x) x.Read()).Returns(False)
-        moq.SetupGet(Of Object)(Function(x) x("String")).Returns("DZ")
+        'Dim moq = New Mock(Of IDataReader)()
+        'moq.Setup(Function(x) x.Read()).Returns(True)
+        'moq.Setup(Function(x) x.Read()).Returns(False)
+        'moq.SetupGet(Of Object)(Function(x) x("String")).Returns("DZ")
 
         'Dim groupe As Groupe
         'Dim reader As SqlDataReader
         'Dim parser As DTOParser = DTOParserFactory.GetParser(GetType(Groupe))
         'parser.PopulateOrdinals(DirectCast(moq.Object, DbDataReader))
         'Dim groupes As Groupe = parser.PopulateDTO(moq.Object)
-
+        'Assert.IsNotNull(groupes)
     End Sub
 
     Private Function TestDataGroupe() As List(Of Groupe)

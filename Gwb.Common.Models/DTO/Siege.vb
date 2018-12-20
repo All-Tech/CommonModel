@@ -1,5 +1,4 @@
 ﻿Imports Gwb.Common.Models.CommonBase
-
 Namespace DTO
     Public Class Siege
         Inherits DTOBase

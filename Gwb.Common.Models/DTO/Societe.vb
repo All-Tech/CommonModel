@@ -1,5 +1,4 @@
 ﻿Imports Gwb.Common.Models.CommonBase
-
 Namespace DTO
     Public Class Societe
         Inherits DTOBase
@@ -23,3 +22,4 @@ Namespace DTO
         Public Property NumeroCompte As String
     End Class
 End Namespace
+

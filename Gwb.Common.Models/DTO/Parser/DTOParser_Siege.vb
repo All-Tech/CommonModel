@@ -1,6 +1,5 @@
-Imports System.Data.Common
+﻿Imports System.Data.Common
 Imports Gwb.Common.Models.CommonBase
-
 Imports Gwb.Common.Models.DTO
 
 Public Class DTOParser_Siege

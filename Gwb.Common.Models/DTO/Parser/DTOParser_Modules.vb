@@ -1,6 +1,6 @@
 Imports System.Data.Common
 Imports System.Configuration
-Imports System.Data.SqlClient
+Imports Gwb.Common.Models.DTO
 Imports Gwb.Common.Models.CommonBase
 
 
