@@ -1,20 +1,22 @@
-﻿Imports Gwb.Common.Models.CommonBase
+Imports Gwb.Common.Models.CommonBase
 
 Public Class SiteOperation
-    Inherits DTOBase
-    Public Property SiteOperationID As Integer
-    Public Property SiegeID As Integer
+	Inherits DTOBase
+
+     #Region"Properties"
+      Public Property SiteOperationID  As Integer
+    Public Property SiegeID As Int16
     Public Property NatureSiteID As Integer
-    Public Property PaysID As Integer
+    Public Property PaysID As Int16
     Public Property AcconierID As Integer
-<<<<<<< HEAD
+    Public Property Code  As String
+      Public Property Libelle  As String
+      Public Property Adresse  As String
+      Public Property Activite  As String
+      Public Property PostAff  As String
+      Public Property Trajet  As String
     Public Property ComptabiliteId As Integer
-=======
->>>>>>> f58ea71d3efafed6d8090d4d4c3ce604cf9c73ea
-    Public Property Code As String
-    Public Property Libelle As String
-    Public Property Adresse As String
-    Public Property Activite As Boolean
-    Public Property PostAff As Integer
-    Public Property Trajet As String
+#End Region
+
+
 End Class

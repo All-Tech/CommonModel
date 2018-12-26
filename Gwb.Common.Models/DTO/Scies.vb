@@ -5,12 +5,12 @@ Public Class Scies
 
      #Region"Properties"
       Public Property SciesID  As Integer
-      Public Property SocieteID  As Integer?
-      Public Property Libelle  As String
+    Public Property SocieteID As Integer
+    Public Property Libelle  As String
       Public Property CodeNature  As String
       Public Property Sigle  As String
       Public Property CodeProduction  As String
-      Public Property OrdreOperation  As Int16?
+    Public Property OrdreOperation As Int16
     Public Property ScieOrg As String
     Public Property OrdreActivite As Boolean
     Public Property FamilleProduction  As String

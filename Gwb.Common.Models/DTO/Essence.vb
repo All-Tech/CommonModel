@@ -5,14 +5,14 @@ Public Class Essence
 
      #Region"Properties"
       Public Property EssenceID  As Integer
-      Public Property ClasseEssenceID  As Integer?
-      Public Property SocieteID  As Integer?
-      Public Property CategorieEssenceID  As Integer?
-      Public Property Libelle  As String
+    Public Property ClasseEssenceID As Integer
+    Public Property SocieteID As Integer
+    Public Property CategorieEssenceID As Integer
+    Public Property Libelle  As String
       Public Property NomScientifique  As String
       Public Property CodeMesurage  As String
-      Public Property DiamExpeditionOfficielle  As Int16?
-      Public Property MesurageAubier  As String
+    Public Property DiamExpeditionOfficielle As Int16
+    Public Property MesurageAubier  As String
       Public Property NomSnt  As String
     Public Property CodeCubagePlein As String
     Public Property CodeActif As Boolean

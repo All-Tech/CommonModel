@@ -5,9 +5,9 @@ Public Class Rotation
 
      #Region"Properties"
       Public Property RotationID  As Integer
-      Public Property SiteOperationID  As Integer?
-      Public Property ScieID  As Integer?
-      Public Property Libelle  As String
+    Public Property SiteOperationID As Integer
+    Public Property ScieID As Integer
+    Public Property Libelle  As String
      #End Region
 
 

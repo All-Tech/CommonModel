@@ -5,9 +5,9 @@ Public Class Parc
 
      #Region"Properties"
       Public Property ParcID  As Integer
-      Public Property SiteOperattionID  As Integer?
-      Public Property NatureParcID  As Integer?
-      Public Property CodeParc  As String
+    Public Property SiteOperattionID As Integer
+    Public Property NatureParcID As Integer
+    Public Property CodeParc  As String
     Public Property Libelle As String
     Public Property CodeVolume As Boolean
     Public Property CodeArbre  As String

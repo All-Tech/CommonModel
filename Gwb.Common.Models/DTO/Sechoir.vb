@@ -5,9 +5,9 @@ Public Class Sechoir
 
      #Region"Properties"
       Public Property SechoirID  As Integer
-      Public Property SiteOperationID  As Integer?
-      Public Property Capacite  As Integer?
-      Public Property LibelleChambre  As String
+    Public Property SiteOperationID As Integer
+    Public Property Capacite As Integer
+    Public Property LibelleChambre  As String
      #End Region
 
 

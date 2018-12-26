@@ -5,8 +5,8 @@ Public Class LoadingNavire
 
      #Region"Properties"
       Public Property LoadingNavireID  As Integer
-      Public Property LoadingChargementID  As Integer?
-     #End Region
+    Public Property LoadingChargementID As Integer
+#End Region
 
 
 End Class

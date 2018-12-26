@@ -24,7 +24,7 @@ Public Overrides Function PopulateDTO(reader As DbDataReader) As DTOBase
 		 If Not reader.IsDBNull("DensiteBoisID") Then densitebois.DensiteBoisID=reader.GetValue(Num_DensiteBoisID)
 		 If Not reader.IsDBNull("EssenceID") Then densitebois.EssenceID=reader.GetValue(Num_EssenceID)
 		 If Not reader.IsDBNull("ProduitID") Then densitebois.ProduitID=reader.GetValue(Num_ProduitID)
-		 If Not reader.IsDBNull("Densite") Then densitebois.Densite=reader.GetValue(Num_Densite)
-		Return densitebois
+        If Not reader.IsDBNull("Libelle") Then densitebois.Libelle = reader.GetValue(Num_Densite)
+        Return densitebois
 	End Function
 End Class

@@ -1,12 +1,14 @@
-﻿Imports Gwb.Common.Models.CommonBase
+Imports Gwb.Common.Models.CommonBase
 
-Namespace DTO
-    Public Class SousFamille
-        Inherits DTOBase
-        Public Property SousFamilleID As Integer
-        Public Property FamilleID As Integer
-        Public Property Code As String
-        Public Property Libelle As String
-    End Class
-End Namespace
+Public Class SousFamille
+	Inherits DTOBase
 
+     #Region"Properties"
+      Public Property SousFamilleID  As Integer
+    Public Property FamilleID As Integer
+    Public Property Code  As String
+      Public Property Libelle  As String
+     #End Region
+
+
+End Class

@@ -75,6 +75,8 @@
     <Compile Include="DTO\Comptabilite.vb" />
     <Compile Include="DTO\ConteneurOrigine.vb" />
     <Compile Include="DTO\DensiteBois.vb" />
+    <Compile Include="DTO\Droit.vb" />
+    <Compile Include="DTO\DroitAutorise.vb" />
     <Compile Include="DTO\Equipe.vb" />
     <Compile Include="DTO\Essence.vb" />
     <Compile Include="DTO\Famille.vb" />
@@ -97,6 +99,8 @@
     <Compile Include="DTO\Parser\DTOParser_Comptabilite.vb" />
     <Compile Include="DTO\Parser\DTOParser_ConteneurOrigine.vb" />
     <Compile Include="DTO\Parser\DTOParser_DensiteBois.vb" />
+    <Compile Include="DTO\Parser\DTOParser_Droit.vb" />
+    <Compile Include="DTO\Parser\DTOParser_DroitAutorise.vb" />
     <Compile Include="DTO\Parser\DTOParser_Equipe.vb" />
     <Compile Include="DTO\Parser\DTOParser_Essence.vb" />
     <Compile Include="DTO\Parser\DTOParser_Famille.vb" />
@@ -125,8 +129,7 @@
     <Compile Include="DTO\Parser\DTOParser_Scies.vb" />
     <Compile Include="DTO\Parser\DTOParser_Sechoir.vb" />
     <Compile Include="DTO\Parser\DTOParser_Siege.vb" />
-    <Compile Include="DTO\Parser\DTOParser_SiteOperation.vb" />
-    <Compile Include="DTO\Parser\DTOParser_Societe.vb" />
+    <Compile Include="DTO\Parser\DTOParser_SiteAutorise.vb" />
     <Compile Include="DTO\Parser\DTOParser_SousFamille.vb" />
     <Compile Include="DTO\Parser\DTOParser_TarifIHC.vb" />
     <Compile Include="DTO\Parser\DTOParser_TrancheHoraire.vb" />
@@ -137,6 +140,7 @@
     <Compile Include="DTO\Parser\DTOParser_TypeFournisseur.vb" />
     <Compile Include="DTO\Parser\DTOParser_TypeMateriel.vb" />
     <Compile Include="DTO\Parser\DTOParser_TypeOperateur.vb" />
+    <Compile Include="DTO\Parser\DTOParser_Utilisateur.vb" />
     <Compile Include="DTO\Pays.vb" />
     <Compile Include="DTO\PileGrume.vb" />
     <Compile Include="DTO\Port.vb" />
@@ -148,6 +152,7 @@
     <Compile Include="DTO\Scies.vb" />
     <Compile Include="DTO\Sechoir.vb" />
     <Compile Include="DTO\Siege.vb" />
+    <Compile Include="DTO\SiteAutorise.vb" />
     <Compile Include="DTO\SiteOperation.vb" />
     <Compile Include="DTO\Societe.vb" />
     <Compile Include="DTO\SousFamille.vb" />
@@ -160,18 +165,13 @@
     <Compile Include="DTO\TypeFournisseur.vb" />
     <Compile Include="DTO\TypeMateriel.vb" />
     <Compile Include="DTO\TypeOperateur.vb" />
-    <Compile Include="DTO\Parser\DTOParser_Siege.vb" />
     <Compile Include="DTO\Parser\DTOParser_SiteArrive.vb" />
     <Compile Include="DTO\Parser\DTOParser_SiteOperation.vb" />
     <Compile Include="DTO\Parser\DTOParser_Societe.vb" />
     <Compile Include="DTO\Parser\DTOParser_SocieteMaritime.vb" />
-    <Compile Include="DTO\Parser\DTOParser_SousFamille.vb" />
-    <Compile Include="DTO\Siege.vb" />
     <Compile Include="DTO\SiteArrive.vb" />
-    <Compile Include="DTO\SiteOperation.vb" />
-    <Compile Include="DTO\Societe.vb" />
     <Compile Include="DTO\SocieteMaritime.vb" />
-    <Compile Include="DTO\SousFamille.vb" />
+    <Compile Include="DTO\Utilisateur.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

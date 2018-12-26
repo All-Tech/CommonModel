@@ -5,10 +5,10 @@ Public Class Transporteur
 
      #Region"Properties"
       Public Property TransporteurID  As Integer
-      Public Property SiteOperationID  As Integer?
-      Public Property ModeTransportID  As Integer?
-      Public Property ComptabiliteID  As Integer?
-      Public Property Code  As String
+    Public Property SiteOperationID As Integer
+    Public Property ModeTransportID As Integer
+    Public Property ComptabiliteID As Integer
+    Public Property Code  As String
       Public Property NomTransporteur  As String
       Public Property Adresse  As String
       Public Property Telephone  As String

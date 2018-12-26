@@ -1,7 +1,8 @@
-Imports System.Data.Common
+﻿Imports System.Data.Common
+Imports System.Configuration
+Imports System.Data.SqlClient
 Imports Gwb.Common.Models.CommonBase
 
-Imports Gwb.Common.Models.DTO
 
 Public Class DTOParser_Siege
     Inherits DTOParser

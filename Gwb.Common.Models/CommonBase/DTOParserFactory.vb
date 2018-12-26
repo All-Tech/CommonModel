@@ -15,7 +15,6 @@ Public NotInheritable Class DTOParserFactory
             Case "SiteProfileDTO"
                 'Return New DTOParser_SiteProfile()
             Case "Siege"
-<<<<<<< HEAD
                 Return New DTOParser_Siege()
             Case "CategorieEssence"
                 Return New DTOParser_CategorieEssence()
@@ -113,13 +112,20 @@ Public NotInheritable Class DTOParserFactory
                 Return New DTOParser_TypeMateriel()
             Case "TypeOperateur"
                 Return New DTOParser_TypeOperateur()
-=======
-                Return New DTO.DTOParser_Siege()
+            Case "Siege"
+                Return New DTOParser_Siege()
             Case "SiteArrive"
                 Return New DTOParser_SiteArrive()
             Case "SiteOperation"
                 Return New DTOParser_SiteOperation()
->>>>>>> f58ea71d3efafed6d8090d4d4c3ce604cf9c73ea
+            Case "Droit"
+                Return New DTOParser_Droit()
+            Case "DroitAutorise"
+                Return New DTOParser_DroitAutorise()
+            Case "ProfilAutorise"
+                Return New DTOParser_ProfilAutorise()
+            Case "SiteAutorise"
+                Return New DTOParser_SiteAutorise()
         End Select
         ' Si nous arrivons ici alors c'est que nous n'avons pas réussi à trouver le type correspondant. Nous levons donc Throw New Exception("Unknown Type")
         Throw New Exception("Unknown Type")

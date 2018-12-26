@@ -5,10 +5,10 @@ Public Class TrancheHoraire
 
      #Region"Properties"
       Public Property TrancheHoraireID  As Integer
-      Public Property RotationID  As Integer?
-      Public Property DateDebut  As DateTime?
-      Public Property Datefin  As DateTime?
-     #End Region
+    Public Property RotationID As Integer
+    Public Property DateDebut As DateTime
+    Public Property Datefin As DateTime
+#End Region
 
 
 End Class

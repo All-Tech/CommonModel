@@ -5,10 +5,10 @@ Public Class DensiteBois
 
      #Region"Properties"
       Public Property DensiteBoisID  As Integer
-      Public Property EssenceID  As Integer?
-      Public Property ProduitID  As Integer?
-      Public Property Densite  As Single
-     #End Region
+    Public Property EssenceID As Integer
+    Public Property ProduitID As Integer
+    Public Property Libelle As String
+#End Region
 
 
 End Class

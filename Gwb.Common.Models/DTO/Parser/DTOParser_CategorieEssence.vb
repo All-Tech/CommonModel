@@ -18,8 +18,8 @@ Inherits DTOParser
 	End Sub
 
 Public Overrides Function PopulateDTO(reader As DbDataReader) As DTOBase
-		Dim categorieessence As New CategorieEssence()
-		 If Not reader.IsDBNull("CategorieEssenceID") Then categorieessence.CategorieEssenceID=reader.GetValue(Num_CategorieEssenceID)
+        Dim categorieessence As New CategorieEssence()
+        If Not reader.IsDBNull("CategorieEssenceID") Then categorieessence.CategorieEssenceID=reader.GetValue(Num_CategorieEssenceID)
 		 If Not reader.IsDBNull("Libelle") Then categorieessence.Libelle=reader.GetValue(Num_Libelle)
 		 If Not reader.IsDBNull("BoisRougeBoisLong") Then categorieessence.BoisRougeBoisLong=reader.GetValue(Num_BoisRougeBoisLong)
 		Return categorieessence
